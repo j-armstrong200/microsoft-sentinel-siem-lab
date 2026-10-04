@@ -1,0 +1,5 @@
+TimeGenerated,Caller,OperationName,ResourceGroup,ResourceName,ActivityStatus,IPAddress
+2026-09-27T14:35:00Z,awilson@contoso.com,Microsoft.Storage/storageAccounts/listKeys/action,Legal-RG,legalfilesprod,Succeeded,185.220.101.42
+2026-09-27T14:38:00Z,awilson@contoso.com,Microsoft.Storage/storageAccounts/write,Legal-RG,legalfilesprod,Succeeded,185.220.101.42
+2026-09-27T14:45:00Z,jmartin@contoso.com,Microsoft.Compute/virtualMachines/start/action,IT-RG,vm-admin-01,Succeeded,203.0.113.25
+2026-09-27T14:52:00Z,awilson@contoso.com,Microsoft.Authorization/roleAssignments/write,Legal-RG,legalfilesprod,Succeeded,185.220.101.42

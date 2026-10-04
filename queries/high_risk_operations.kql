@@ -1,0 +1,8 @@
+AzureActivity
+| where OperationName has_any (
+    "listKeys",
+    "roleAssignments/write",
+    "storageAccounts/write"
+)
+| project TimeGenerated, Caller, OperationName, ResourceGroup, ResourceName, ActivityStatus, IPAddress
+| order by TimeGenerated asc
