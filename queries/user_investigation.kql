@@ -1,0 +1,4 @@
+SigninLogs
+| where UserPrincipalName == "awilson@contoso.com"
+| sort by TimeGenerated asc
+| project TimeGenerated, UserPrincipalName, IPAddress, Location, ResultType, AppDisplayName
